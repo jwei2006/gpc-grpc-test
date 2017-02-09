@@ -9,6 +9,7 @@
 	<artifactId>grpc-proxyfactorybean</artifactId>
 	<properties>
 		<version.spring>4.1.7.RELEASE</version.spring>
+		<version.grpc>1.0.0</version.grpc>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -32,6 +33,12 @@
 			<artifactId>spring-core</artifactId>
 			<version>${version.spring}</version>
 			<classifier>sources</classifier>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-netty</artifactId>
+			<version>${version.grpc}</version>
 		</dependency>
 	</dependencies>
 </project>
