@@ -4,6 +4,9 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="grpc-proxyfactorybean-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/grpc-proxyfactorybean/grpc-proxyfactorybean">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="core-define-0.0.2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/core-define/core-define">
             <dependency-type>uses</dependency-type>
         </dependent-module>

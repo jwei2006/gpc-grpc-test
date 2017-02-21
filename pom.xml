@@ -12,6 +12,7 @@
 		<module>core-grpc-netty</module>
 		<module>grpc-proxyfactorybean</module>
 		<module>client-test</module>
+		<module>test-proxy</module>
 	</modules>
 	<dependencies>
 		<dependency>
